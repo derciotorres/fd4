@@ -1,0 +1,61 @@
+
+<link rel='stylesheet' href='/stylesheets/style.css' />
+
+<header>
+    <a href="/">
+    <div id="logo" >
+
+        
+    </div>
+</a>
+
+    <div id="search">
+
+
+
+        <section class="searchProperties">
+            <form id="product-search" action="/search" enctype="application/x-www-form-urlencoded">
+                <input type="text" name="mySearch" id="mySearch" placeholder="What are you looking for?">
+                <button>Search</button>
+            </form>
+        </section>
+
+
+    </div>
+
+
+
+    <div id="login2">
+        <div class="container bar">
+            <label class="floatLeft" for="navBtn"><span></span></label>
+        </div>
+        <div class="container">
+            <input type="checkbox" class="navBtn" id="navBtn" />
+            <nav>
+                <div class="row">
+                    <div class="form-p">
+                        <form action="/signup" method="post">
+                            <div>
+                                <label>Username:</label>
+                                <input type="text" name="username2" /><br/>
+                            </div>
+                            <div>
+                                <label>Password:</label>
+                                <input type="password" name="password" />
+                            </div>
+                            <div><input type="submit" value="Sign Up" /></div>
+                        </form>
+
+
+            </nav>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="/routes/index.js"></script>
+
+</header>
